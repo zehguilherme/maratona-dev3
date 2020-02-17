@@ -1,0 +1,141 @@
+/* Global */
+
+* {
+    box-sizing: border-box;  /*box fica somente até o tamanho da borda, no caso ocupando 100%*/
+}
+
+/* Limpar estilos pré-definidos do navegador */
+html, body {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;  /*vh: viewport height; página aumenta sua viewport em 100%*/
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #000000cc;
+}
+
+/* Títulos */
+header h1, main h2 {
+    margin-bottom: 70px;
+}
+
+main h2 span {
+    color: #ff4f4f;
+}
+
+.form h2 {
+    text-align: right;
+    color: #ffffffee;
+    font-size: 18px;
+}
+
+/* Estrutura */
+header, main, footer {
+    text-align: center;
+}
+
+header, .form, main {
+    /* espaçamentos com margem */
+    margin: 0 auto 70px;
+    
+    /* limites dos elementos */
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Header */
+header button {
+    margin-top: 8px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #ff4f4f;
+    color: #fff;
+    font-weight: bold;
+}
+
+img.logo {
+    width: 120px;
+    margin: 70px 0;
+}
+
+/* Formulário */
+section.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 45px;  /*espaçamento no caso do uso do grid*/
+    align-items: center;
+    background-color: #ff4f4f;
+    padding: 16px 64px;
+    border-radius: 10px;
+}
+
+form input, form button {
+    width: 100%;
+    margin-bottom: 4px;
+    padding: 8px 16px;
+
+    /* Bordas */
+    border-radius: 4px;  /*bordas arredondadas*/
+    border: 1px #ffffff88 solid;
+}
+
+form input {
+    background-color: transparent;
+}
+
+form input::placeholder {
+    color: #ffffffaa;
+}
+
+form button {
+    font-weight: bold;
+}
+
+/* Main */
+main section.donors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  /*define quantas colunas estarão presentes*/
+}
+
+div.blood {
+    color: #ff4f4f;
+    font-weight: bold;
+    font-size: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/* cria um elemento de nome "before" dentro da div "blood" */
+div.blood::before {
+    content: "";
+    background-color: #ff4f4f11;
+    width: 40px;
+    height: 40px;
+
+    position: absolute;  /*criação de uma nova camada (contexto)*/
+
+    /* criação da gota */
+    border-radius: 50%;
+    border-top-right-radius: 0;
+
+    transform: rotateZ(1.5708);
+}
+
+/* Footer */
+footer {
+    margin-top: auto;  /*vai se ajustar ao tamanho do body*/
+    padding: 16px;
+    border: 1px solid #eee;
+}
