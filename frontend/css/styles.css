@@ -66,6 +66,10 @@ img.logo {
     margin: 70px 0;
 }
 
+header p {
+    font-size: 14px;
+}
+
 /* Formulário */
 section.form {
     display: grid;
@@ -126,11 +130,16 @@ div.blood::before {
 
     position: absolute;  /*criação de uma nova camada (contexto)*/
 
-    /* criação da gota */
+    /* criação do efeito gota */
     border-radius: 50%;
     border-top-right-radius: 0;
 
-    transform: rotateZ(1.5708);
+    transform: rotateZ(-45deg);
+}
+
+div.donor p {
+    margin-top: 24px;
+    font-size: 14px;
 }
 
 /* Footer */
@@ -138,4 +147,17 @@ footer {
     margin-top: auto;  /*vai se ajustar ao tamanho do body*/
     padding: 16px;
     border: 1px solid #eee;
+}
+
+/* Funcionalidades com javascript */
+
+section.form {
+    transition: all 300ms;  /*transição de x milisegundos*/
+}
+
+section.form.hide {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    margin-top: -70px;
 }
