@@ -18,8 +18,6 @@
 * <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a>
 * <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript</a>
 
-<h1><h1>
-
 <h3>Back-end</h3>
 
 * <a href="https://nodejs.org/en/">Node</a> - Interpretador JavaScript para uso do lado do servidor
