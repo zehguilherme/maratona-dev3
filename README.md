@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/zehguilherme/maratona-dev3/blob/master/frontend/img/pagina_inicial.PNG">
+  <img src="https://github.com/zehguilherme/maratona-dev3/blob/master/public/img/pagina_inicial.PNG">
 </p>
 
 <h2 align="center">
