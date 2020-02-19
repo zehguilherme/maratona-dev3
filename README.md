@@ -23,3 +23,4 @@
 * <a href="https://nodejs.org/en/">Node</a> - Interpretador JavaScript para uso do lado do servidor
 * <a href="https://expressjs.com/pt-br/">Express</a> - Framework Node que fornece um conjunto robusto de recursos para aplicativos web e móvel
 * <a href="https://mozilla.github.io/nunjucks/">Nunjucks</a> - Template engine
+* <a href="https://www.postgresql.org/">PostgreSQL</a> - Banco de dados
