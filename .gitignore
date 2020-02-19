@@ -5,5 +5,3 @@ node_modules/
 
 # arquivos
 .DS_Store
-yarn.lock
-package.json
