@@ -31,4 +31,4 @@
   Inicialização da aplicação
 </h3>
 
-<p>Na pasta `backend`, abra um terminal e digite `yarn start`.</p>
+Na pasta `backend`, abra um terminal e digite `yarn start`.
