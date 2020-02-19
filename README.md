@@ -31,4 +31,8 @@
   Inicialização da aplicação
 </h3>
 
+<<<<<<< HEAD
 Na pasta `backend`, abra um terminal e digite `yarn start`.
+=======
+<p>Na pasta `backend`, abra um terminal e digite `yarn start`.</p>
+>>>>>>> e1b870a81066cc2ad32073a90d51834d49fa5499
