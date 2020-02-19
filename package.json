@@ -1,0 +1,17 @@
+{
+  "name": "maratona-dev3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "repository": "https://github.com/zehguilherme/maratona-dev3.git",
+  "author": "zehguilherme <36301054+zehguilherme@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "nunjucks": "^3.2.0",
+    "pg": "^7.18.1"
+  }
+}
